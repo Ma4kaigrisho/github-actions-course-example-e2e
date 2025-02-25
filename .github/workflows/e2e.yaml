@@ -12,7 +12,7 @@ jobs:
             - name: Checkout Code
               uses: actions/checkout@v4.2.2
               with:
-                repository: Ma4kaigrisho/Actions
+                repository: Ma4kaigrisho/github-actions-course-example-e2e
                 ref: master
                 token: ${{secrets.access || secrets.GITHUB_TOKEN}}
             - name: Setup Node
