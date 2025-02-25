@@ -13,8 +13,8 @@ jobs:
               uses: actions/checkout@v4.2.2
               with:
                 repository: Ma4kaigrisho/github-actions-course-example-e2e
-                ref: master
-                token: ${{secrets.access || secrets.GITHUB_TOKEN}}
+                ref: main
+                token: ${{secrets.access-access-token || secrets.GITHUB_TOKEN}}
             - name: Setup Node
               uses: actions/setup-node@v4.2.0
               with:
